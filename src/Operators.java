@@ -9,10 +9,19 @@ void main() {
     // a value of 5, and `second` a value of 4. Then, print the sum of
     // `first` and `second`.
 
+    int first = 5;
+    int second = 4;
+    System.out.println(first + second);
+
 
     // Create an integer variable `result`. Using Java math operators, multiply
     // the sum of 1 and 6 with the difference of 7 and 8, and store it in the
     // `result` variable. Then, print the value of `result`.
+
+    int result = 1 + 6;
+    result *= 8 - 7;
+    System.out.println(result);
+
 
 
     // Given the below variable `rotPerSec`, calculate the corresponding
@@ -20,6 +29,8 @@ void main() {
     // Then, print the value of `rotPerHour`.
     int rotPerSec = 5;
 
+    int rotPerHour = rotPerSec * 3600;
+    System.out.println(rotPerHour);
 
     // Create an integer variable `quotient1`, and assign to it the value
     // of 5 divided by 3. Then print the value of `quotient1`.

@@ -33,7 +33,7 @@ void main() {
     // Now, print all three variables in the **same** print statement,
     // separated by spaces.
 
-    System.out.println(pi + g + mode);
+    System.out.println(pi + " " + g + " " + mode);
 
     // Now, change pi to equal 3.142857 (a slightly incorrect approximation of pi
     // equal to 22 divided by 7). Then, print the value of `pi` again.
