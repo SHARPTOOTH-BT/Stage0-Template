@@ -8,22 +8,36 @@ class ScoreKeeper {
     // A ScoreKeeper tracks an alliance's score during a match, so its score
     // needs to be able to change over time. Declare a `private int` field
     // named `score` below (don't initialize it here, the constructors will
-    // handle that).
+    // handle that). 
 
+    private int score;
 
     // A team's score can never drop below zero. Declare a
     // constant named `MIN_SCORE`, equal to `0`, to represent
     // that floor.
 
+    
+    public final int MIN_SCORE = 0;
+  
 
     // Write a no-argument constructor `ScoreKeeper()` that starts the score
     // at `MIN_SCORE`. Instead of repeating the constructor logic, use
     // `this(...)` to call the other constructor below, passing `MIN_SCORE`
     // as the argument.
 
+    
+    /*public ScoreKeeper() {
+        final int score = this.ScoreKeeper;
+    } */
+
+    
+
+
 
     // Write a constructor `ScoreKeeper(int startingScore)` that sets `score`
     // to `startingScore`.
+
+
 
 
     // Write a method `addPoints(int points)` that adds `points` to `score`,
