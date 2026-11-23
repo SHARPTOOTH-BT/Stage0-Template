@@ -37,8 +37,8 @@ class ScoreKeeper {
     // Write a constructor `ScoreKeeper(int startingScore)` that sets `score`
     // to `startingScore`.
 
-
-
+    /*public Scorekeepr(int startingScore)
+    score = startingScore */
 
     // Write a method `addPoints(int points)` that adds `points` to `score`,
     // then prints "Score is now: " followed by the new score. This method
